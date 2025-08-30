@@ -16,6 +16,6 @@ EXEC BUTTON ASSIGN.xml - Assign an Executor a specific Button Assignment.
   1. Select Executor # (prompted)
   2. Secelt Type of BUTTON - Toggle/Go/Temp/Flash/Load/On? (Promted)
 
-SEQ ASSIGN.xml - Assign a Seq you have to an Executor.
+SEQ ASSIGN.xml - Assign a Seq you have to an Executor # or Fader.
   1.Select which sequence you'd like to Assign. (prompted)
   2.Choose Executor Number to assign that Sequence to. (prompted)
