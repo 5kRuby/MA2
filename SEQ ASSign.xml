@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.61/MA.xsd" major_vers="3" minor_vers="9" stream_vers="61">
+	<Info datetime="2025-08-29T22:54:03" showfile="capture import 4" />
+	<Macro index="4" name="SEQ ASSign">
+		<Appearance Color="f1ff00" />
+		<Macroline index="0">
+			<text>SetVar $Seq = (&quot;Seq #?&quot;)</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $Exec = (&quot;Executor #?&quot;)</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Assign Sequence $SEQ At Executor $EXEC</text>
+		</Macroline>
+	</Macro>
+</MA>

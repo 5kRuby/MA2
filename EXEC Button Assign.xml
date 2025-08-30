@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.61/MA.xsd" major_vers="3" minor_vers="9" stream_vers="61">
+	<Info datetime="2025-08-29T22:53:12" showfile="capture import 4" />
+	<Macro index="16" name="EXEC Button Assign">
+		<Appearance Color="fdff00" />
+		<Macroline index="0">
+			<text>SetUserVar $Exec = (&quot;Exec Number?&quot;)</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetUserVar $Function = (&quot;Toggle/Go/Temp/Flash/Load/On?&quot;)</text>
+		</Macroline>
+		<Macroline index="2" delay="0.1">
+			<text>[$Function == &quot;toggle&quot;] Assign $Function Executor $exec</text>
+		</Macroline>
+		<Macroline index="3" delay="0.1">
+			<text>[$Function == &quot;go&quot;] Assign $Function Executor $exec</text>
+		</Macroline>
+		<Macroline index="4" delay="0.1">
+			<text>[$Function == &quot;temp&quot;] Assign $Function At Executor $exec</text>
+		</Macroline>
+		<Macroline index="5" delay="0.1">
+			<text>[$Function == &quot;flash&quot;] Assign $Function Executor $exec</text>
+		</Macroline>
+		<Macroline index="6" delay="0.1">
+			<text>[$Function == &quot;load&quot;] Assign $Function Executor $exec</text>
+		</Macroline>
+		<Macroline index="7" delay="0.1">
+			<text>[$Function == &quot;on&quot;] Assign $Function Executor $exec</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>SetUserVar $Exec = &quot;&quot;; SetUserVar $Function = &quot;&quot;</text>
+		</Macroline>
+	</Macro>
+</MA>

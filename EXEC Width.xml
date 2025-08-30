@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.61/MA.xsd" major_vers="3" minor_vers="9" stream_vers="61">
+	<Info datetime="2025-08-29T22:53:08" showfile="capture import 4" />
+	<Macro index="15" name="EXEC Width">
+		<Appearance Color="faff00" />
+		<Macroline index="0">
+			<text>SetUserVar $Exec = (&quot;Exec Number?&quot;)</text>
+		</Macroline>
+		<Macroline index="1" delay="0.1">
+			<text>SetUserVar $ExecWidth = (&quot;Width?&quot;)</text>
+		</Macroline>
+		<Macroline index="2" delay="0.1">
+			<text>Assign Executor $exec At /width=$Execwidth</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>SetUserVar $Exec = &quot;&quot;; SetUserVar $execWidth = &quot;&quot;</text>
+		</Macroline>
+	</Macro>
+</MA>
