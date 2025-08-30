@@ -8,9 +8,9 @@ Feel free to adapt them to your needs.
 
 Here is a little rundown of what each macro does.
 
-EXEC WIDTH.xml - Expand of Contract Executor Width
+EXEC WIDTH.xml - Expand/Contract Executor Width
   1. Select Executor Number (prompted)
-  2. Select Width you'd like 1-5 (Prompted)
+  2. Select Width you'd like 1-5 (Prompted) - Make sure you have the width available to expand depending on what size you want.
 
 EXEC BUTTON ASSIGN.xml - Assign an Executor a specific Button Assignment.
   1. Select Executor # (prompted)
