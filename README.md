@@ -8,14 +8,22 @@ Feel free to adapt them to your needs.
 
 Here is a little rundown of what each macro does.
 
-EXEC WIDTH.xml - Expand/Contract Executor Width
+EXEC WIDTH.xml - Expand/Contract Executor Button Width - Exec page 1 Only
   1. Select Executor Number (prompted)
   2. Select Width you'd like 1-5 (Prompted) - Make sure you have the width available to expand depending on what size you want.
 
-EXEC BUTTON ASSIGN.xml - Assign an Executor a specific Button Assignment.
+EXEC BUTTON ASSIGN.xml - Assign an Executor a specific EXEC Button Assignment. - Exec page 1 Only
   1. Select Executor # (prompted)
   2. Secelt Type of BUTTON - Toggle/Go/Temp/Flash/Load/On? (Promted)
 
-SEQ ASSIGN.xml - Assign a Seq you have to an Executor # or Fader.
+SEQ ASSIGN.xml - Assign a Seq you have to an Executor # or Fader. - Exec page 1 Only
   1.Select which sequence you'd like to Assign. (prompted)
   2.Choose Executor Number to assign that Sequence to. (prompted)
+
+EXEC APPEAR ROW.xml - Change Appearance color of Executor Buttons ROW - Exec page 1 Only
+  1. Select which Row you'd like. 1-5 (prompted)
+  2. Appearance window pops up. Select color.
+     
+EXEC APPEAR COLUMN.xml - Change Appearance color of Executor Buttons COLUMNS - Exec page 1 Only
+  1. Select Which Row you'd like. 1-15 (prompted)
+  2. Appearance window pops up. Select Color
