@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.61/MA.xsd" major_vers="3" minor_vers="9" stream_vers="61">
+	<Info datetime="2025-08-30T00:10:42" showfile="capture import 4" />
+	<Macro index="17" name="EXEC Appear ROW">
+		<Appearance Color="fdff00" />
+		<Macroline index="0" delay="0.01">
+			<text>SetUserVar $ExecRow = (&quot;Exec Row# ? 1-5&quot;)</text>
+		</Macroline>
+		<Macroline index="1" delay="0.01">
+			<text>[$ExecRow == &quot;1&quot;] SetUserVar $ExecRowONE = &quot;1&quot;</text>
+		</Macroline>
+		<Macroline index="2" delay="0.01">
+			<text>[$ExecRow == &quot;2&quot;] SetUserVar $ExecRowTWO = &quot;2&quot;</text>
+		</Macroline>
+		<Macroline index="3" delay="0.01">
+			<text>[$ExecRow == &quot;3&quot;] SetUserVar $ExecRowTHREE = &quot;3&quot;</text>
+		</Macroline>
+		<Macroline index="4" delay="0.01">
+			<text>[$ExecRow == &quot;4&quot;] SetUserVar $ExecRowFOUR = &quot;4&quot;</text>
+		</Macroline>
+		<Macroline index="5" delay="0.01">
+			<text>[$ExecRow == &quot;5&quot;] SetUserVar $ExecRowFIVE = &quot;5&quot;</text>
+		</Macroline>
+		<Macroline index="6" delay="0.01">
+			<text>SetUserVar $ExecRow = &quot;&quot;</text>
+			<info>OFF</info>
+		</Macroline>
+		<Macroline index="7" />
+		<Macroline index="8" delay="0.01">
+			<text>[$ExecRowONE == &quot;1&quot;] SetUserVar $ROW1 = &quot;executor 1.101 thru 1.115&quot;</text>
+		</Macroline>
+		<Macroline index="9" delay="0.01">
+			<text>[$ExecRowONE == &quot;1&quot;] Appearance $Row1</text>
+		</Macroline>
+		<Macroline index="10" />
+		<Macroline index="11" delay="0.01">
+			<text>[$ExecRowTWO == &quot;2&quot;] SetUserVar $ROW2 = &quot;executor 1.116 thru 1.130&quot;</text>
+		</Macroline>
+		<Macroline index="12" delay="0.01">
+			<text>[$ExecRowTWO == &quot;2&quot;] Appearance $ROW2</text>
+		</Macroline>
+		<Macroline index="13" />
+		<Macroline index="14" delay="0.01">
+			<text>[$ExecRowTHREE== &quot;3&quot;] SetUserVar $ROW3 = &quot;executor 1.131 thru 1.145&quot;</text>
+		</Macroline>
+		<Macroline index="15" delay="0.01">
+			<text>[$ExecRowTHREE == &quot;3&quot;] Appearance $ROW3</text>
+		</Macroline>
+		<Macroline index="16" />
+		<Macroline index="17" delay="0.01">
+			<text>[$ExecRowFOUR == &quot;4&quot;] SetUserVar $ROW4 = &quot;executor 1.146 thru 1.160&quot;</text>
+		</Macroline>
+		<Macroline index="18" delay="0.01">
+			<text>[$ExecRowFOUR == &quot;4&quot;] Appearance $ROW4</text>
+		</Macroline>
+		<Macroline index="19" />
+		<Macroline index="20" delay="0.01">
+			<text>[$ExecRowFIVE == &quot;5&quot;] SetUserVar $ROW5 = &quot;executor 1.161 thru 1.175&quot;</text>
+		</Macroline>
+		<Macroline index="21" delay="0.01">
+			<text>[$ExecRowFIVE == &quot;5&quot;] Appearance $ROW5</text>
+		</Macroline>
+		<Macroline index="22" />
+		<Macroline index="23" />
+		<Macroline index="24" delay="0.01">
+			<text>SetUserVar $ExecRow1= &quot;&quot;; SetUserVar $ExecRow2 = &quot;&quot;; SetUserVar $ExecRow3 = &quot;&quot;</text>
+			<info>OFF</info>
+		</Macroline>
+		<Macroline index="25" delay="0.01">
+			<text>SetUserVar $ExecRow4 = &quot;&quot;; SetUserVar $ExecRow5 = &quot;&quot;</text>
+			<info>OFF</info>
+		</Macroline>
+		<Macroline index="26" />
+		<Macroline index="27" delay="0.01">
+			<text>SetUserVar $ExecRowONE = &quot;&quot;; SetUserVar $ExecRowTWO = &quot;&quot;; SetUserVar $ExecRowTHREE = &quot;&quot;;</text>
+			<info>OFF</info>
+		</Macroline>
+		<Macroline index="28" delay="0.01">
+			<text>SetUserVar $ExecRowFOUR = &quot;&quot;; SetUserVar $ExecRowFIVE = &quot;&quot;;</text>
+			<info>OFF</info>
+		</Macroline>
+		<Macroline index="29" />
+		<Macroline index="30" delay="0.01">
+			<text>SetUserVar $ROW1 = &quot;&quot;; SetUserVar $ROW2 = &quot;&quot;; SetUserVar $ROW3 = &quot;&quot;</text>
+			<info>OFF</info>
+		</Macroline>
+		<Macroline index="31" delay="0.01">
+			<text>SetUserVar $ROW4 = &quot;&quot;; SetUserVar $ROW5 = &quot;&quot;</text>
+			<info>OFF</info>
+		</Macroline>
+		<Macroline index="32" />
+	</Macro>
+</MA>
